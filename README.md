@@ -23,6 +23,7 @@ Moved state from child components to the parent to manage shared data.
 ### 🔹 Props Drilling
 Passed functions as props (`handleVisitedCountries`) to enable child → parent communication.
 
-                                                                                                                                                             ![Project Screenshot](https://github.com/user-attachments/assets/9ae3dfa3-3903-42c5-bec1-fa335fc684e8)
+                                                                                                                  <img width="1898" height="887" alt="Screenshot 2026-03-25 103601" src="https://github.com/user-attachments/assets/847efd33-762f-496d-b3d3-125620bfdeea" />
+                                                 
 
 
