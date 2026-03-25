@@ -1,0 +1,87 @@
+/* Container styling */
+.gri {
+    display: grid;
+    /* Responsive grid: columns will automatically adjust based on screen size */
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 20px;
+}
+
+/* Individual Card Styling */
+.country {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.country:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Image styling */
+.country img {
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Button Styling */
+button {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+/* Visited State Styling */
+.country-vis {
+    background-color: #e3f2fd; /* Light blue tint */
+    border-color: #4A90E2;
+}
+.country-tag {
+    display: inline-block;
+    background: #4A90E2;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 0.8rem;
+}
+.search-box {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.search-box input {
+    width: 60%;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search-box input:focus {
+    border-color: #4A90E2;
+}
+
+.visited-stats {
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+}
