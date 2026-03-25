@@ -1,16 +1,29 @@
-# React + Vite
+# 🌍 Country Explorer (React Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic React application that allows users to explore countries and mark them as **Visited**. This project focuses on mastering **state management**, **component communication**, and **real-time UI updates**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🌐 Display country details (flag, name, capital, region, population, area)
+- ✅ Mark countries as **Visited / Not Visited**
+- 📊 Maintain a global **Visited Countries list**
+- 🔁 Toggle visited state with real-time updates
+- 🔍 Real-time search filtering (optional feature)
+- 🎨 Conditional styling based on state
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Concepts Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔹 State Lifting
+Moved state from child components to the parent to manage shared data.
+
+### 🔹 Props Drilling
+Passed functions as props (`handleVisitedCountries`) to enable child → parent communication.
+
+                                                                                                                  <img width="1898" height="887" alt="Screenshot 2026-03-25 103601" src="https://github.com/user-attachments/assets/847efd33-762f-496d-b3d3-125620bfdeea" />
+                                                 
+
+
