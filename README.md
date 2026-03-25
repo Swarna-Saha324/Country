@@ -23,11 +23,6 @@ Moved state from child components to the parent to manage shared data.
 ### 🔹 Props Drilling
 Passed functions as props (`handleVisitedCountries`) to enable child → parent communication.
 
-### 🔹 Immutable State Updates
-Used spread operator to update state safely:
-```js
-setVisited([...visited, country]);<img width="1898" height="887" alt="image" src="https://github.com/user-attachments/assets/9ae3dfa3-3903-42c5-bec1-fa335fc684e8" />
-
-
+                                                                                                                                                             ![Project Screenshot](https://github.com/user-attachments/assets/9ae3dfa3-3903-42c5-bec1-fa335fc684e8)
 
 
